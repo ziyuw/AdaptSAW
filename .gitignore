@@ -1,0 +1,12 @@
+.DS_Store
+*.swp
+tags
+*.o
+*.mex*
+*.m~
+*.pyc
+*.dylib
+*.so
+*.npy
+*.mat
+*~
