@@ -8,6 +8,11 @@ def get_cur_path():
     
     return cur_path
 
+
+def get_ego_lib_dir(config_file=None):
+	lib_dir = get_cur_path() + "/cpp/libs/"
+	return lib_dir
+
 def get_lib_dir(config_file=None):
 	
 	if config_file is None:
